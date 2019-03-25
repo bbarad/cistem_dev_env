@@ -1,0 +1,1 @@
+docker build --rm -t cistem_dev_env .
