@@ -19,5 +19,12 @@ Docker > Preferences > Advanced
 Increase memory limit to e.g. 8GB (default is 2GB)
 
 # Running
-`docker run arohou/cistem_dev_env`
+`sh run.sh`
+
+This launches 3 windows using your X server:
+- an xterm terminal
+- Eclipse
+- wxformbuilder
+
+Note that the Docker container will terminate if you close the xterm terminal.
 

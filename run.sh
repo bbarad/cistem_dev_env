@@ -10,4 +10,4 @@ docker run -ti --rm \
 	   -m 8GB \
 	   --cap-add=SYS_PTRACE --security-opt seccomp=unconfined \
 	   --name cistem_dev_env \
-       cistem_dev_env
+       arohou/cistem_dev_env
