@@ -28,3 +28,14 @@ This launches 3 windows using your X server:
 
 Note that the Docker container will terminate if you close the xterm terminal.
 
+# Eclipse configuration
+- Import project from local git repository
+- To get all the symbols resolved by the Eclipse CDT indexer, go to Project > Properties > C/C++ General > Paths & Symbols and add the following include directories:
+-- /usr/include
+-- /usr/include/x86_64-linux-gnu
+-- /usr/local/include
+-- /usr/lib/gcc/x86_64-linux-gnu/7/include
+-- /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+-- /usr/local/lib/wx/include/gtk2-unicode-static-3.0
+-- /usr/local/include/wx-3.0
+
