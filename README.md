@@ -38,4 +38,5 @@ Note that the Docker container will terminate if you close the xterm terminal.
 -- /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
 -- /usr/local/lib/wx/include/gtk2-unicode-static-3.0
 -- /usr/local/include/wx-3.0
+- Character encoding: Change the Workspace charset to UTF-8 (Menu>Windows>Preferences: in tab: General>Workspace) 
 
