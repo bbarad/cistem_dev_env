@@ -3,7 +3,7 @@ FROM rafdouglas/eclipse_docker:eclipse_photon_C_Cpp
 
 
 # Add dependencies needed to build cisTEM
-RUN sudo apt-get --allow-releaseinfo-change update && sudo apt-get install -y gcc g++ gtk2.0-dev xterm unzip fftw3-dev gdb valgrind
+RUN sudo apt-get --allow-releaseinfo-change update && sudo apt-get install -y gcc g++ gtk2.0-dev xterm unzip fftw3-dev gdb valgrind git vim
 
 # Build & install wxWidgets (static, for cisTEM)
 RUN wget http://versaweb.dl.sourceforge.net/project/wxwindows/3.0.2/wxWidgets-3.0.2.tar.bz2 -O /tmp/wxwidgets.tar.gz && \
